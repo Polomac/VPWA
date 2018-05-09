@@ -1,6 +1,6 @@
 # vpwa
 
-> Vue JS - PWA example
+> Vue JS - PWA Template
 
 ## Build Setup
 
@@ -10,6 +10,11 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
+
+# test on mobile devices
+npm run dev, open new conosle and run ngrok http 8080
+Open generated urlon mobile device.
+NOTE: service-worker will be loaded upon build.
 
 # build for production with minification
 npm run build
